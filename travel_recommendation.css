@@ -1,0 +1,142 @@
+/* Basic CSS for navigation bar */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:content-box;
+}
+body {
+    background-image:linear-gradient(rgba(2, 68, 61, 0.5), rgba(2, 68, 61, 0.5)), url("./background_image.png");
+    font-family: 'Courier New', Courier, monospace;
+    background-size: cover;
+}
+nav{
+    /*background-color: rgb(6, 104, 241);*/
+    background:linear-gradient(rgba(2, 68, 61, 0.9), rgba(2, 68, 61, 0.9)), url("./nav_background.jpg");
+    padding: 20px;
+    display:flex;
+    /*background-image: url("./nav_background.jpg");*/
+    align-items: left;
+    justify-content: space-between;
+}
+nav img{
+    height:35px;
+    width:35px;
+    float: left;
+    background-color: transparent;
+    align-items:normal;
+}
+nav ul {
+    list-style-type: none;
+    /* padding: 0; */
+}
+nav ul li {
+    display:inline-block;
+    margin-right: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(6, 6, 6);
+    font-weight: bold;
+}  
+h1{
+    margin-bottom: auto;
+}
+.search-bar{
+    width:100%;
+    max-width: 500px;
+    padding: 2px 10px;
+    align-items: center;
+    margin:0;
+    display:flex;
+    border-radius:50px;
+    background: transparent;
+    backdrop-filter: blur(4px) saturate(180%);
+    
+}
+.search-bar input {
+    width: 200px;
+    padding: 10px;
+    text-align: left;
+    flex:1;
+    border:0;
+    outline:none;
+    border-radius:50px;
+    background: transparent;
+    font-size: 12px;
+    color:#c8cae8;
+}
+.search-bar button{
+    width: 20px;
+    padding: 10px 40px;
+    background-color:rgb(5, 93, 74);
+    color: rgb(247, 238, 238);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+} 
+.container{
+    display: flex;
+}
+.container > div{
+    flex:1; /*grow*/
+}
+.sidebar{
+    width:100%;
+    overflow: hidden;
+    max-width:150px;
+    float: left;
+}
+#div-line img{
+    height: 300px;
+    width: 1px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#social-media{
+    float:left;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+#social-media img{
+    height:35px;
+    width:35px;
+    background-color: transparent;
+    align-items:normal;
+}
+.mainInfo{
+    color:#f5f5f9;
+    margin-left: 0px;
+    margin-top: 100px;
+}
+.mainInfo form{
+    width:50px;
+    height: 50px;
+    font-size: 40px;
+}
+.mainInfo form p {
+    margin-top: 350px;
+    width: 400px;
+    height: 300px;
+    font-size: 20px;
+}
+.mainInfo button {
+    margin-top: 150px;
+    width: 75px;
+    padding: 10px 20px;
+    background-color:rgb(5, 93, 74);
+    color: rgb(247, 238, 238);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.searchResults {
+    width: 100%;
+    max-width: 500px;
+    color: rgb(244, 18, 18);
+    overflow: hidden;
+    float: right;
+    margin-top: 40px;
+}
