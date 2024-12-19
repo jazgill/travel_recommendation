@@ -4,16 +4,16 @@
         <meta charset="UTF-8">
         <title>TravelBloom</title>
         <link rel="stylesheet" href="./travel_recommendation.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     </head>
     <body>
         <nav>
-            <h1><img src="./plane2.png">TravelBloom</h1>
+            <h1><img src="./images/plane2.png">TravelBloom</h1>
             <ul>
                 <li><a href="./travel_recommendation.html" id="home">Home</a></li>
                 <li><a href="./about_travel.html" id="about">About Us</a></li>
                 <li><a href="./travel_contact.html" id="contact">Contact Us</a></li>
-                <li><form action="" class="search-bar"><input type="text" id="conditionInput" placeholder="Enter a Destination or Keyword....">
+                <li><form action="" class="search-bar"><input type="text" id="searchInput" placeholder="Enter a Destination or Keyword....">
                     <button id="btnSearch">Search</button>&nbsp;
                     <button id="btnClear">Clear</button>
                 </form></li>
@@ -21,28 +21,29 @@
         </nav>
         <div class="container">
             <div class="sidebar">
-                <div id="div-line">
-                    <img src="./vertical.png">
+                <div class="div-line">
                 </div>
-                <div id="social-media">
-                    <a href="https://www.facebook.com/"><img src="./faceb.png"></a><br>
-                    <a href="https://www.instagram.com/"><img src="./insta.jpeg"></a><br>
-                    <a href="https://www.x.com/"><img src="./twitter.png"></a><br>
-                    <a href="https://www.youtube.com/"><img src="./youtube.png"></a><br>
-                </div>
+                <ul class="social-media">
+                    <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                </ul>
             </div>
             <div class="mainInfo">
-                <form action=""><h1>EXPLORE DREAM DESTINATION</h1>
-                </form>
-                <form action=""><p>It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, 
+                <div class="left-div">
+                    <form action=""><h1>EXPLORE DREAM DESTINATION</h1>
+                    </form>
+                    <form action=""><p>It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, 
                     while pursuing the desired destination that captivates the heart and ignites a sense of wonder.</p>
-                </form>
-                <button id="bookNow">BOOK NOW</button>
+                    </form>
+                    <button id="bookNow">BOOK NOW</button>
+                </div>
             </div>
-            <div class="searchResults">
-                <form>
-                    <p>This is where the results are shown</p>
-                </form>
+            <div class="right-div">
+                <div id="result">
+                    <h1>This is where the results supposed to show!!!</h1>
+                </div>
             </div>
         </div>
         <script src="./travel_recommendation.js"></script>
