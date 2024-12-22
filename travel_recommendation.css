@@ -203,3 +203,60 @@ button:hover {
     border-radius: 10px;
     cursor: pointer;
 }
+/*some css for about us page */
+.aboutMainInfo{
+    color:#f5f5f9;
+    margin-left: 100px;
+    margin-top:50px;
+    position: flex;
+}
+.about-left-div form{
+    width:1000px;
+    height:100px;
+    font-size: 30px;
+}
+.about-left-div form p {
+    margin-top: 0px;
+    width: 100%;
+    max-width: 900px;
+    font-size: 16px;
+}
+#about-span{
+    font-weight: bold;
+}
+.about-bottom-div {
+    margin-top: 10px;
+    display: flex;
+}
+.about-bottom-div div{
+    margin-top: 50px;
+    display: flex;
+}
+.about-bottom-div img{
+    background-color: transparent;
+    height: 20px;
+    width: 20px;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 5px;
+}
+.about-bottom-div form {
+    margin-left: 0px;
+    margin-top: 70px;
+    height: 90px;
+    width: 180px;
+    background:linear-gradient(rgba(14, 61, 57, 0.9), rgba(1, 17, 15, 0.9));
+    border-radius: 7px;
+    font-size: 14px;
+}
+.about-bottom-div button {
+    margin-top: 10px;
+    width: 90px;
+    padding: 5px 10px;
+    margin-left: 30px;
+    background-color:rgb(6, 43, 101);
+    color: rgb(247, 238, 238);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
