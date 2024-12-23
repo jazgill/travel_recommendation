@@ -260,3 +260,64 @@ button:hover {
     border-radius: 10px;
     cursor: pointer;
 }
+/*some css for contact us page */
+.contact-mainInfo {
+    color:#f5f5f9;
+    margin-left: 200px;
+    margin-top:0px;
+}
+.contact-left-div {
+    margin-top: 0px;
+    width: 100%;
+    max-width: 300px;
+    font-size: 16px;
+    margin-top: 0px;
+}
+.contact-left-div #contact {
+    margin-top: 200px;
+    float:left;
+}
+.contactUs{
+    margin-left: 100px;
+    margin-top: 150px;
+    width: 100%;
+    max-width: 520px;
+    height: 310px;
+    background:linear-gradient(rgba(14, 61, 57, 0.9), rgba(1, 17, 15, 0.9));
+    border-radius: 7px;
+    font-size: 14px;
+    float: left;
+}
+.contactUs label {
+    margin-left: 10px;
+}
+.contactUs input{
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: transparent;
+    width: 100%;
+    max-width: 500px;
+    color: white;
+    border-radius: 7px;
+}
+.contactUs textarea{
+    background-color: transparent;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 500px;
+    height: 120px;
+    color: white;
+    border-radius: 7px;
+}
+.contactUs button {
+    margin-top:2px;
+    width: 450px;
+    padding: 5px 10px;
+    margin-left: 30px;
+    background-color:rgb(6, 43, 101);
+    color: rgb(247, 238, 238);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
