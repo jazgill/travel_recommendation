@@ -1,13 +1,6 @@
-const bookNowBtn = document.getElementById("bookNow");
 const result = document.getElementById("result");
 const searchButton = document.getElementById('btnSearch');
 const clearButton = document.getElementById('btnClear');
-//const countries = [];
-
-function bookNowFunction(){
-    console.log("We have clicked bookNow!!");
-    resetResults();
-}
 
 function resetResults(){
     const input = document.getElementById("searchInput").value = "";
@@ -71,10 +64,6 @@ function searchDestination(){
                             <button id="visit">Visit</button>
                             </div>
                             </div>`;
-        /*const options = { timeZone: 'America/New_York', hour12: true, hour: 'numeric', 
-        minute: 'numeric', second: 'numeric' };
-        const newYorkTime = new Date().toLocaleTimeString('en-US', options);
-        console.log("Current time in New York:", newYorkTime);*/
                         })
                     })
                 }
@@ -158,8 +147,6 @@ function searchDestination(){
         event.preventDefault();
 } 
 
-
-bookNow.addEventListener('click', bookNowFunction);
 clearButton.addEventListener('click', resetResults);
 searchButton.addEventListener('click', searchDestination);
 
